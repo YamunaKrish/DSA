@@ -7,7 +7,7 @@ class Solution{
         int right=chars.length-1;
         while(left<right){
             String temp = chars[left];
-                chars[left] = chars[right];
+            chars[left] = chars[right];
             chars[right]= temp;
             left++;
             right--;
