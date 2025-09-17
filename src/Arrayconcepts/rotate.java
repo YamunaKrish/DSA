@@ -28,6 +28,6 @@ public class rotate {
   sample s= new sample();
   int[] input= {1,2,3,4,5,6};  //{4, 5, 6,1,2,3}
 
-        System.out.println(Arrays.toString(s.find(input,0)));
+        System.out.println(Arrays.toString(s.find(input,3)));
     }
 }
